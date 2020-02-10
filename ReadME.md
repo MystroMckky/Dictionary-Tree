@@ -4,6 +4,8 @@ to a tree to build a dictionary and search the tree to find if a given word matc
 2) Then write code to test your dictionary tree implementation by building a dictionary
 tree from a source dictionary text file and then use the dictionary tree to perform spell
 checks on all words read from another text file and print out all misspelled words there. 
+
+
 --Dictionary.h --
 This is the header file for dictinary.C. Inlucdes all libraries needed. I create the Dictentry Object and defines is parameters.
 I also define the size of the children to be 27. One for every letter in the alphabet plus a apostrophe (26+1).
